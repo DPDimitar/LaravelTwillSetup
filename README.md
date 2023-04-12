@@ -24,12 +24,16 @@ Navigate in the main directory of the repository, than run
 
 `composer install`
 
+than 
+
+`npm install`
+
 Set your ENV variables..
 
 `composer migrate:fresh`
 
-`php artisan serve`
+`php artisan twill:superadmin`
 
 `npm run dev`
 
-After this process is finished, navigate to your http://localhost:8000 to see the results
+After this process is finished, navigate to your env(APP_URL) to see the results
